@@ -21,7 +21,7 @@ const Quotes = () => {
       }
     } catch (error) {
       console.error("Error fetching quotes:", error);
-      alert("Error fetching quotes");
+      alert("you are at the end of the quotes");
     }
   };
 
